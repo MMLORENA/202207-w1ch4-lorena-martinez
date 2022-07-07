@@ -1,0 +1,6 @@
+.products-resum-list {
+    padding: 1rem;
+    background-color: var(--resum-list-color);
+    display: flex;
+    justify-content: space-between;
+}

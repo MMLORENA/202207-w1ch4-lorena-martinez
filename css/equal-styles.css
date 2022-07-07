@@ -21,3 +21,8 @@ body {
 .active {
     font-weight: bold;
 }
+
+.icon {
+    display: flex;
+    align-items: center;
+}
