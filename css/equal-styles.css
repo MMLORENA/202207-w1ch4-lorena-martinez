@@ -9,6 +9,7 @@
     padding: 35px 15px;
     display: flex;
     background-color: var(--menu-color);
+    justify-content: space-between;
 }
 
 body {
