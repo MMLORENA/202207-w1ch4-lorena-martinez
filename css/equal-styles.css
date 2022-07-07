@@ -1,9 +1,19 @@
-* {
-    box-sizing: border-box;
-    margin: 0rem;
+:root {
+    --menu-color: #5e75d1;
+    --main-color-text: #212529;
+    --resum-list-color: #f97400;
+    --list-color: #ff8d26;
 }
 
-:root {
+.main-menu {
+    padding: 35px 15px;
+    display: flex;
+    background-color: var(--menu-color);
+}
+
+body {
     font-family: Arial, sans-serif;
-    color: rgb(20, 21, 20);
+    color: var(--main-color-text);
+    box-sizing: border-box;
+    margin: 0rem;
 }
