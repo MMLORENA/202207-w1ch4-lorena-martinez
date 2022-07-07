@@ -3,6 +3,11 @@
     font-weight: bold;
 }
 
+.main-menu__products-list {
+    display: flex;
+    justify-content: space-between;
+}
+
 .products {
     font-size: 0.75rem;
     align-items: flex-end;
@@ -12,9 +17,7 @@
     padding: 0;
     width: 180px;
 }
-.main-menu__products-list {
-    display: flex;
-    justify-content: space-between;
-}
-.products__product {
+
+.product--current {
+    font-weight: bold;
 }
