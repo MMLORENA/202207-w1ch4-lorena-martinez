@@ -1,5 +1,23 @@
-.main-menu {
-    padding: 35px 15px;
+.main-menu__title {
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.main-menu__products-list {
     display: flex;
-    background-color: var(--menu-color);
+    justify-content: space-between;
+}
+
+.products {
+    font-size: 0.75rem;
+    align-items: flex-end;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+    width: 180px;
+}
+
+.active {
+    font-weight: bold;
 }
