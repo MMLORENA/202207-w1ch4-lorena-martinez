@@ -1,0 +1,12 @@
+.products-resum-list {
+    padding: 15px;
+    background-color: var(--resum-list-color);
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+}
+
+.products-list {
+    font-size: 20px;
+    align-self: center;
+}
