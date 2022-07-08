@@ -10,3 +10,18 @@
     font-size: 20px;
     align-self: center;
 }
+
+.main-products-list {
+    background-color: var(--list-color);
+    height: 100vh;
+    padding-top: 10px;
+}
+
+.products-list-items {
+    list-style-type: none;
+    list-style-type: none;
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    padding-left: 15px;
+}
