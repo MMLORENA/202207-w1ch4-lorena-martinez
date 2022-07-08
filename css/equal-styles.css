@@ -17,6 +17,7 @@ body {
     color: var(--main-color-text);
     box-sizing: border-box;
     margin: 0rem;
+    height: 100vh;
 }
 .active {
     font-weight: bold;
